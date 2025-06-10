@@ -11,7 +11,7 @@ Imports System.Runtime.Serialization.Json
 Imports System.Security.Principal
 Imports Dynamitey
 
-Namespace KeyAuth
+Namespace EpicAuth
     Public Class api
         Public name, ownerid, secret, version As String
 
@@ -199,7 +199,7 @@ Namespace KeyAuth
             Try
 
                 Using client As WebClient = New WebClient()
-                    client.Headers("User-Agent") = "KeyAuth"
+                    client.Headers("User-Agent") = "EpicAuth"
                     ' ServicePointManager.ServerCertificateValidationCallback = AddressOf others.pin_public_key
                     Dim raw_response = client.UploadValues("https://keyauth.site/api/1.0/", post_data)
                     ' ServicePointManager.ServerCertificateValidationCallback = Function(send, certificate, chain, sslPolicyErrors) True

@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{11328F1F-F1C5-4FA5-A6AA-468BF51C4360}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>KeyAuth_VB.My.MyApplication</StartupObject>
-    <RootNamespace>KeyAuth_VB</RootNamespace>
-    <AssemblyName>KeyAuth VB</AssemblyName>
+    <StartupObject>EpicAuth_VB.My.MyApplication</StartupObject>
+    <RootNamespace>EpicAuth_VB</RootNamespace>
+    <AssemblyName>EpicAuth VB</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>KeyAuth VB.xml</DocumentationFile>
+    <DocumentationFile>EpicAuth VB.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>KeyAuth VB.xml</DocumentationFile>
+    <DocumentationFile>EpicAuth VB.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -83,7 +83,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KeyAuth.vb" />
+    <Compile Include="EpicAuth.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>

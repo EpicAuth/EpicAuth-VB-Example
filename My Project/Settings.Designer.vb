@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
 
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")> _
-        Friend ReadOnly Property Settings() As Global.KeyAuth_VB.My.MySettings
+        Friend ReadOnly Property Settings() As Global.EpicAuth_VB.My.MySettings
             Get
-                Return Global.KeyAuth_VB.My.MySettings.Default
+                Return Global.EpicAuth_VB.My.MySettings.Default
             End Get
         End Property
     End Module
